@@ -1,0 +1,12 @@
+{
+	"name": "spotify_datalake",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://pandisaspotify.dfs.core.windows.net/",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQEExQjNBQkE3LUZCRjItNDE3NC1BQTFFLUI3NDYyMTdEQTk1Ql9hYmM5ZTM0OC0zZGQ2LTRiNWUtODQ0MC1iMWExYWZmNjdlNDciDQp9"
+		}
+	}
+}
