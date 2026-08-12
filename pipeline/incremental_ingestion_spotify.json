@@ -197,7 +197,7 @@
 						"type": "DatasetReference",
 						"parameters": {
 							"container": "bronze",
-							"folder": "cdc ",
+							"folder": "cdc",
 							"file": "cdc.json"
 						}
 					}
