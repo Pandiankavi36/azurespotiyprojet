@@ -1,0 +1,15 @@
+{
+	"name": "df-spotifyproject-pk",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "southcentralus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "a8a1b308-2be9-4c1d-bb00-e37cbe09f2bd",
+		"tenantId": "0404f12c-5440-447e-a901-9472611b82fa"
+	}
+}
