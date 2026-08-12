@@ -133,7 +133,7 @@
 				}
 			},
 			{
-				"name": "If Condition1",
+				"name": "IfIncrementalData",
 				"type": "IfCondition",
 				"dependsOn": [
 					{
@@ -145,6 +145,10 @@
 				],
 				"userProperties": [],
 				"typeProperties": {
+					"expression": {
+						"value": "@greater(activity('AzureSQLToDataLake').output.dataRead,0)",
+						"type": "Expression"
+					},
 					"ifFalseActivities": [
 						{
 							"name": "DeleteEmptyFile",
