@@ -325,7 +325,9 @@
 					{
 						"activity": "ForEachitem",
 						"dependencyConditions": [
-							"Succeeded"
+							"Succeeded",
+							"Failed",
+							"Completed"
 						]
 					}
 				],
